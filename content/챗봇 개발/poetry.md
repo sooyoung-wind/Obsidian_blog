@@ -14,12 +14,3 @@ pip 생태계가 많이 퍼져 있어서 커뮤니티도 많이 활성화되어 
 
 # Poetry install
 
-![[Pasted image 20240312010706.png]]
-
-### Test
-
-![[Pasted image 20240312010724.png]]
-
-Test
-
-![[Pasted image 20240312010806.png]]
