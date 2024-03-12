@@ -31,6 +31,7 @@ Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv
 - `pyenv install --list` :  설치 가능한 python 버전 리스트 확인
 - `pyenv install 3.12.1` : 3.12.1 버전으로 python 설치하기 
 - `pyenv global 3.12.1` : 글로벌 버전으로 3.12.1로 설정하기 / 이 후에 `pyenv version`을 치면 3.12.1 버전으로 설정되었다고 나온다.
+- `pyenv update`: 만약 원하는 최신 버전이 없다면 update를 통해서 최신 버번을 가져올 수 있다.
 
 `pyenv install <버전>`을 통해 해당 python 버전을 설치하고 `pyenv global <version>`을 통해 python의 global 버전까지 설정하였다. 각 작업 디렉토리마다 python 버전을 달리 하고 싶다면 해당 디렉토리에서 `pyenv local <version>`을 실행하면 설정이 완료된다. 
 
