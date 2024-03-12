@@ -6,6 +6,8 @@ date: 2024-03-11 21:41:00
 tags:
   - environment
   - python
+  - platform
+  - LLM
 ---
 
 저의 소소한 지식 저장소에 오신 것을 환영합니다.👋 <br>
