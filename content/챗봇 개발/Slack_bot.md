@@ -98,7 +98,7 @@ Docswave의 내용은 생략합니다. Docswave 홈페이지에서 로그인 후
 Redirect URLs를 통해서 배포를 하는 경우에는 Slack 공식 앱으로 등록이 된 것이 아니기 때문에 승인되지 않았다고 경고문이 나옵니다. 그리고 공식 앱으로 등록된 앱이 아니므로 Apps Directory에서 검색도 안되므로 제공되는 Redirect URLs로만 설치가 가능합니다.(슬랙 프로그램을 통해서 설치 불가능)
 ![[Pasted image 20240314013336.png]]
 
-앱 응답 결과물 
+앱 응답 결과물  
 ![[Pasted image 20240314013345.png]]
 
 
