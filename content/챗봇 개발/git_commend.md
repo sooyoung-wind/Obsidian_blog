@@ -26,7 +26,7 @@ Auther: Soo.Y
 `git branch -r` 
 - (원격)원격 저장소의 브랜치 조회하기  
 
-`git checkout -t <branch name>` 
+`git checkout -t <branch name (origin 경로 포함해서)>` 
 - 원격저장소에서 특정 브랜치 가져오기  
 `git checkout -b <new branch name> <from branch name>` 
 - `from branch name`으로부터 새로운 branch 생성하는 방법    
