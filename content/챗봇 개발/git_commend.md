@@ -39,6 +39,14 @@ Auther: Soo.Y
 |                      Rebase                       |                                                   |
 |           `git rebase -i <commit num>`            |                 (로컬) 해당 커밋을 수정하기                  |
 
+###### Github(원격)에 올라 온 PR(Pull Request) 내용을 로컬에 적용하기
+`git fetch origin pull/13/head:<new branch name>`   
+- 13번 PR을 new branch name으로 받는 명령어입니다. 
+- `git checkout <new branch name>`으로 변경해서 코드를 수정하면 된다고 합니다. (Test 필요)
+
+`git branch -r`로 원격 저장소의 브랜치를 조회한다.    
+`git checkout -b <new branch name> <origin/PR branch>`으로 PR branch를 새로운 브랜치 이름으로 가져온다.
+이제부터 수정하고 `git add`부터 `git commit & push`를 찬찬히 진행하면 된다고 한다. (Test 필요)  
 
 # 관련 문서
 
