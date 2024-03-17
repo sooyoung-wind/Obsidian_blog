@@ -34,7 +34,12 @@ Auther: Soo.Y
 `git push origin <my branch name>:<git branch>` 
 - `git branch`에 `<my branch name>`으로 commit한 내용 올리기
 
+`git add <file name>`
+`git reset <file name>`
+`git checkout -- <file name>` : 파일을 완벽하게 원본 파일로 돌아가게 하는 명령어
 
+`git commit`
+`git commit --amend` : 메세지 수정하기
 
 
 # 관련 문서
