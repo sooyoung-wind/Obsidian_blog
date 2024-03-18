@@ -22,6 +22,8 @@ Auther: Soo.Y
 |                  `git branch -r`                  |               (원격) 원격 저장소의 브랜치 조회하기               |
 |           `git checkout -b <new> <old>`           |           (로컬) old 브랜치에서 new 브랜치를 생성하기            |
 |                                                   |                                                   |
+|         `git checkout -t <origin/branch>`         |               원격 저장소에서 branch 가져오기                |
+|                                                   |                                                   |
 |                   Add(Staging)                    |                                                   |
 |               `git add <file name>`               |              (로컬) staging 안된 파일 등록하기              |
 |              `git reset <file name>`              |          (로컬) staging 및 commit 된 파일 취소하기          |
