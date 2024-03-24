@@ -2,6 +2,8 @@
 title: slack의 slash commands 권한 설정
 date: 2024-03-24 21:23
 tags:
+  - platform
+  - environment
 ---
 
 Created at : 2024-03-24 21:23  
