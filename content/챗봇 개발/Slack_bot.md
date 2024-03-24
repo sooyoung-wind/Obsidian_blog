@@ -117,4 +117,4 @@ Wandb 설정 창
 
 # 관련 문서
 
-
+[[slack_commend]]
