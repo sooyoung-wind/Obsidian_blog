@@ -40,6 +40,8 @@ Auther: Soo.Y
 |                                                   |                                                   |
 |                      Rebase                       |                                                   |
 |           `git rebase -i <commit num>`            |                 (로컬) 해당 커밋을 수정하기                  |
+|                                                   |                                                   |
+|            `git fetch origin --prune`             |               원격 및 로컬에서 삭제한 브랜치 지우기               |
 
 ###### Github(원격)에 올라 온 PR(Pull Request) 내용을 로컬에 적용하기
 `git fetch origin pull/13/head:<new branch name>`   
