@@ -12,7 +12,8 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: 'plausible'
+      provider: 'plausible',
+      tagId: 'G-1JD8Q57JC0',
     },
     locale: "en-US",
     baseUrl: "sooyoung.page.dev",
