@@ -13,7 +13,7 @@ tags:
 Created at : 2024-04-12 16:20  
 Auther: Soo.Y  
 
-이미 공개된 정보인지는 모르겠으나, Prompt engineering을 공부하면서 prompt를 어떻게 하면 유출이 안되고 사용할 수 있을까? 라는 의문에 시작된 연구입니다. 이미 전세계적으로 공개된 공격 Prompt는 작성되었지만, 그 외 제가 사용한 공격 prompt는 제외했습니다. 
+이미 공개된 정보인지는 모르겠으나, Prompt engineering을 공부하면서 prompt를 어떻게 하면 유출이 안되면서 사용할 수 있을까? 라는 의문에 시작된 연구입니다. 이미 전세계적으로 공개된 공격 Prompt는 작성되었지만, 그 외 제가 사용한 공격 prompt는 제외했습니다. 
 
 # 공격 prompt(GPTs)
 
