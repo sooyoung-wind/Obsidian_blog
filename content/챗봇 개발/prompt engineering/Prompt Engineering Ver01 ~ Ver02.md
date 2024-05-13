@@ -1,7 +1,9 @@
 ---
-title: 
+title: Prompt Engineering Ver01 ~ Ver02
 date: 2024-05-13 11:37
 tags:
+  - LLM
+  - Report
 ---
 
 Created at : 2024-05-13 11:37  

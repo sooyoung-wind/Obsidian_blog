@@ -1,7 +1,9 @@
 ---
-title: 
+title: Ver01 연구 결과물
 date: 2024-05-13 11:40
 tags:
+  - LLM
+  - Report
 ---
 
 Created at : 2024-05-13 11:40  
