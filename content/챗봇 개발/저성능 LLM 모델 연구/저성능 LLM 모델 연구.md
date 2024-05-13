@@ -1,5 +1,5 @@
 ---
-title: Prompt Engineering Ver01 ~ Ver02
+title: 저성능 LLM 모델 연구
 date: 2024-05-13 11:37
 tags:
   - LLM
@@ -11,7 +11,7 @@ Auther: Soo.Y
 
 ### 연구 주제
 
-## Prompt Engineering with GPT3.5, Haiku
+#### Prompt Engineering with GPT3.5, Haiku
 
 작성자 : 허수영
 
