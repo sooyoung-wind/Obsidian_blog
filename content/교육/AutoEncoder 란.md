@@ -60,6 +60,8 @@ Autoencoder는 다양한 분야에서 활용됩니다. 주요 응용 분야는 �
 - **특징 추출**: 고차원 데이터에서 중요한 특징을 추출하여 다른 기계 학습 모델의 입력으로 사용할 수 있습니다.
 - **이미지 생성**: 새로운 이미지를 생성하는 데 사용할 수 있습니다. 특히 Variational Autoencoder는 이미지 생성에서 많이 사용됩니다.
 
+![[Pasted image 20240626113729.png]]
+
 ### 6. Autoencoder 구현 예제
 
 다음은 Pytorch를 사용하여 간단한 Autoencoder를 구현하는 예제입니다.
@@ -173,3 +175,5 @@ Autoencoder는 데이터의 잠재 표현을 학습하여 차원 축소, 노이�
 # 관련 문서
 
 https://en.wikipedia.org/wiki/Autoencoder
+
+https://medium.com/@divakar1591/autoencoders-6fab1a9a9f9c
