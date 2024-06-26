@@ -1,6 +1,6 @@
 ---
 title: Neural Network란
-date: 2024-06-26 11:48
+date: 2024-06-26 10:48
 tags:
   - DL
   - python
