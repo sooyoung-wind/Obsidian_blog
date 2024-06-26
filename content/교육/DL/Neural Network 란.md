@@ -1,7 +1,10 @@
 ---
-title: 
+title: Neural Network란
 date: 2024-06-26 11:48
 tags:
+  - DL
+  - python
+  - pytorch
 ---
 
 Created at : 2024-06-26 11:48  

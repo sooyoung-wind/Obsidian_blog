@@ -2,7 +2,7 @@
 title: AutoEncoder 란
 date: 2024-06-26 11:21
 tags:
-  - ML
+  - DL
   - python
   - pytorch
 ---
