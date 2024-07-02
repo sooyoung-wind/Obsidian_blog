@@ -22,5 +22,6 @@ tags:
 
 블로그 목록   
 
-[챗봇-개발](https://sooyoung.pages.dev/챗봇-개발/)      
+[챗봇-개발](https://sooyoung.pages.dev/Projects/챗봇-개발/) 
+
 
