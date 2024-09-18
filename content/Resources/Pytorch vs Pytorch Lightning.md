@@ -164,7 +164,7 @@ for epoch in range(5):
 **PyTorch Lightning**에서는 훈련 과정을 쉽게 정의할 수 있어요.
 
 ```python
-class LitSimpleNN(pl.LightningModule):
+class LitSimpleNN(L.LightningModule):
     # ... 이전 코드 생략 ...
 
     def training_step(self, batch, batch_idx):
@@ -199,7 +199,7 @@ class LitSimpleNN(pl.LightningModule):
 **PyTorch Lightning**에서는 간단하게 훈련을 실행할 수 있어요.
 
 ```python
-from pytorch_lightning import Trainer
+from lightning.pytorch import Trainer
 
 model = LitSimpleNN()
 trainer = Trainer(max_epochs=5)
