@@ -14,10 +14,9 @@ Auther: Soo.Y
 ----
 ### 📝메모 
 
-
 # 1. AutoML 도구 개요
 
-AutoML은 머신러닝 모델링의 복잡한 과정을 자동화하여 효율성과 성능을 향상시키는 도구입니다. 이번에 살펴본 주요 AutoML 도구들은 다음과 같습니다:
+AutoML은 머신러닝 모델링의 복잡한 과정을 자동화하여 효율성과 성능을 향상시키는 도구입니다. 이번에 살펴볼 주요 AutoML 도구들은 다음과 같습니다:
 
 - H2O AutoML
 - Auto-PyTorch
@@ -28,6 +27,7 @@ AutoML은 머신러닝 모델링의 복잡한 과정을 자동화하여 효율�
 - MLJAR AutoML
 - GAMA
 - Auto-WEKA
+- PyCaret
 
 각 도구는 고유한 특징과 강점을 가지고 있으며, 다양한 상황에서 활용될 수 있습니다.
 
@@ -277,50 +277,64 @@ AutoML은 머신러닝 모델링의 복잡한 과정을 자동화하여 효율�
 
 ---
 
+## 10) PyCaret
+
+### 개요
+
+- 설명: PyCaret은 Python 기반의 오픈 소스, 저코드(low-code) 머신러닝 라이브러리로, 머신러닝 워크플로우를 자동화하고 단순화합니다.
+- 주요 특징: 간단한 인터페이스, 다양한 머신러닝 작업 지원(분류, 회귀, 군집화, 이상치 탐지 등), 풍부한 모델과 알고리즘 제공.
+
+### 장점
+
+- 사용 편의성: 최소한의 코드로 복잡한 머신러닝 작업을 수행할 수 있습니다.
+- 다양한 알고리즘 지원: scikit-learn, XGBoost, LightGBM 등 다양한 라이브러리의 알고리즘을 통합하여 제공합니다.
+- 통합된 워크플로우: 데이터 전처리, 모델 비교, 하이퍼파라미터 튜닝, 앙상블 학습, 모델 해석까지 한 번에 수행 가능합니다.
+- 인터랙티브 환경 지원: Jupyter Notebook, Google Colab 등에서 사용하기 편리합니다.
+
+### 단점
+
+- 커스터마이징 제한: 고급 사용자는 세부 설정이 부족하다고 느낄 수 있습니다.
+- 자원 소모: 많은 모델을 학습하고 비교하므로 시간이 오래 걸릴 수 있습니다.
+- 대용량 데이터 처리 제한: 메모리 내에서 작업하므로 대용량 데이터 처리에 한계가 있을 수 있습니다.
+
+### 추천 상황
+
+- 빠른 프로토타이핑: 신속하게 여러 모델을 비교하고자 할 때 적합합니다.
+- 초보자나 교육 목적: 머신러닝 학습자나 교육 환경에서 활용하기 좋습니다.
+- 일반적인 머신러닝 작업: 분류, 회귀 등 일반적인 문제를 해결할 때 편리합니다.
+
+---
+
 # 3. 종합 추천 및 선택 가이드
 
 ## 프로젝트 요구사항에 따른 도구 선택
 
 1. 대용량 데이터 처리 및 분산 컴퓨팅 필요: H2O AutoML
 2. 딥러닝 모델의 자동화와 최적화: Auto-PyTorch
-3. 사용 편의성과 빠른 프로토타이핑: AutoGluon, MLJAR AutoML
+3. 사용 편의성과 빠른 프로토타이핑: AutoGluon, MLJAR AutoML, PyCaret
 4. 데이터 전처리와 드리프트 감지에 중점: MLBox
 5. 파이프라인 전체의 최적화와 코드 재사용: TPOT
 6. scikit-learn 환경에서의 앙상블 학습: Auto-sklearn
-7. 커스터마이징과 파이프라인 세부 조정 필요: GAMA
-8. WEKA 환경에서의 AutoML 활용: Auto-WEKA
+7. 세부적인 커스터마이징이 필요: GAMA
+8. WEKA 환경을 활용하고자 한다면: Auto-WEKA
 
 ## 사용자 경험과 기술 수준에 따른 선택
 
-- 초보자나 비전문가: AutoGluon, MLJAR AutoML
+- 초보자나 비전문가: AutoGluon, MLJAR AutoML, PyCaret
 - 딥러닝에 익숙한 사용자: Auto-PyTorch
-- Python 환경 선호: Auto-sklearn, TPOT, AutoGluon, MLJAR AutoML
+- Python 환경 선호: Auto-sklearn, TPOT, AutoGluon, MLJAR AutoML, PyCaret
 - Java 환경 선호: Auto-WEKA
 
 ## 자원 제약에 따른 선택
 
 - 컴퓨팅 자원이 풍부한 경우: H2O AutoML, TPOT, Auto-PyTorch
-- 자원 제한이 있는 경우: MLJAR AutoML(모드 설정을 통해 조정 가능), Auto-sklearn
+- 자원 제한이 있는 경우: MLJAR AutoML(모드 설정을 통해 조정 가능), Auto-sklearn, PyCaret
 
 ## 커스터마이징 요구에 따른 선택
 
 - 높은 커스터마이징 필요: Auto-PyTorch, TPOT, GAMA
-- 자동화된 프로세스 선호: H2O AutoML, AutoGluon, MLJAR AutoML
+- 자동화된 프로세스 선호: H2O AutoML, AutoGluon, MLJAR AutoML, PyCaret
 
----
-
-# 4. 결론
-
-각 AutoML 도구는 고유한 강점과 특징을 가지고 있으며, 프로젝트의 목적, 데이터의 특성, 사용자의 기술 수준 및 자원 제약 등에 따라 적합한 도구를 선택하는 것이 중요합니다.
-
-- 최상의 성능과 대용량 데이터 처리가 필요하다면: H2O AutoML
-- 딥러닝 모델의 자동화가 필요하다면: Auto-PyTorch
-- 사용 편의성과 빠른 개발이 중요하다면: AutoGluon, MLJAR AutoML
-- 데이터 전처리와 품질 향상이 필요하다면: MLBox
-- 파이프라인 최적화와 코드 재사용이 필요하다면: TPOT
-- scikit-learn 기반의 친숙한 환경을 원한다면: Auto-sklearn
-- 세부적인 커스터마이징이 필요하다면: GAMA
-- WEKA 환경을 활용하고자 한다면: Auto-WEKA
 
 
 ----
