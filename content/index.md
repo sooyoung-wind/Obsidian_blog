@@ -22,6 +22,9 @@ tags:
 
 블로그 목록   
 
+[[Projects]]  
+[[Resources]]
+
 [챗봇-개발](https://sooyoung.pages.dev/Projects/챗봇-개발/) 
 [python-기초](https://sooyoung.pages.dev/Resources/python/%EA%B8%B0%EC%B4%88/)
 
