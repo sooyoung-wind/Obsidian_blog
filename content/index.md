@@ -23,7 +23,7 @@ tags:
 블로그 목록   
 
 [[Projects/]]  
-[[Resources/]]
+[[Resources/]]  
 [[tags/plugin]]  
 
 [챗봇-개발](https://sooyoung.pages.dev/Projects/챗봇-개발/) 
