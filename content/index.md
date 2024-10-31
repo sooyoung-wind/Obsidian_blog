@@ -22,10 +22,6 @@ tags:
 
 블로그 목록   
 
-[[Projects/챗봇-개발/]]  
+[[Projects/]]  
 [[Resources/]]  
-- [[Resources/python/기초/]]    
-- [[Resources/AutoML/]]    
-- [[Resources/DL/]]  
-
 
