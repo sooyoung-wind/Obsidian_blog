@@ -22,7 +22,7 @@ tags:
 
 블로그 목록   
 
-[[Projects/]]  
+[[Projects/챗봇-개발/]]  
 [[Resources/]]  
 [[tags/plugin]]  
 
