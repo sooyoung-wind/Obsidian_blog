@@ -24,8 +24,8 @@ tags:
 
 [[Projects/챗봇-개발/]]  
 [[Resources/]]  
-    [[Resources/python/]]    
-    [[Resources/AutoML/]]    
-    [[Resources/DL/]]  
+- [[Resources/python/]]    
+- [[Resources/AutoML/]]    
+- [[Resources/DL/]]  
 [[tags/plugin/]]  
 
