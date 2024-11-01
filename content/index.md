@@ -15,13 +15,14 @@ tags:
   - Solar
   - DL
   - mlx
+  - AutoML
 ---
 
 저의 소소한 지식 저장소에 오신 것을 환영합니다.👋       
 저의 GitHub 주소는 https://github.com/sooyoung-wind 입니다. 🥰
 
-# 블로그 리스트  
+## Folder List
 
-## [[Projects/]]  
-## [[Resources/]]  
+## 1. [[Projects/]]  
+## 2. [[Resources/]]  
 
