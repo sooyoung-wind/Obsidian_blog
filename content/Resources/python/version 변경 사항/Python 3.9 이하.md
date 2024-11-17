@@ -1,5 +1,5 @@
 ---
-title: Python version
+title: Python 3.9 이하
 date: 2024-11-02 15:53
 tags:
   - python
@@ -230,6 +230,8 @@ print(distance)  # 출력: 7.0710678118654755
 norm = math.hypot(*point2)
 print(norm)  # 출력: 7.0710678118654755
 ```
+
+
 
 ----
 ### 📜출처(참고 문헌)  
