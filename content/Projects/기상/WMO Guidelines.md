@@ -56,6 +56,9 @@ Auther: Soo.Y
 
 https://library.wmo.int/viewer/57727/?form=MG0AV3#page=1&viewer=picture&o=bookmark&n=0&q=
 
+https://library.wmo.int/records/item/68663-guide-to-instruments-and-methods-of-observation?offset=8
+
+
 ----
 ### 🔗연결 문서
 
