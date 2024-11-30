@@ -95,3 +95,5 @@ poetry config virtualenvs.create true
 
 # 관련 문서
 [[pyenv]]
+[[pyenv_poetry]]
+[[pyenv_poetry_사용하기]]

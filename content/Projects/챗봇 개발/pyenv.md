@@ -60,3 +60,5 @@ Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv
 
 # 관련 문서
 [[poetry]]
+[[pyenv_poetry]]
+[[pyenv_poetry_사용하기]]

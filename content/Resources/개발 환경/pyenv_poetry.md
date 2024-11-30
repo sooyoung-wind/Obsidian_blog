@@ -51,3 +51,5 @@ Auther: Soo.Y
 ### 🔗연결 문서
 
 [[pyenv_poetry_사용하기]]
+[[pyenv]]
+[[poetry]]
