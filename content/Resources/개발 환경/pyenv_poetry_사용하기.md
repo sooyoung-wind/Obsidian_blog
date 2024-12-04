@@ -148,13 +148,13 @@ pyenv install --list
 예를 들어, Python 3.10.9를 설치하려면:
 
 ```bash
-pyenv install 3.10.9
+pyenv install 3.10.16
 ```
 
 ### 3. 글로벌 Python 버전 설정
 
 ```bash
-pyenv global 3.10.9
+pyenv global 3.10.16
 ```
 
 ### 4. 로컬(프로젝트별) Python 버전 설정
@@ -162,7 +162,7 @@ pyenv global 3.10.9
 프로젝트 디렉토리에서:
 
 ```bash
-pyenv local 3.10.9
+pyenv local 3.10.16
 ```
 
 이렇게 하면 해당 디렉토리와 하위 디렉토리에서 지정한 Python 버전이 사용됩니다.
@@ -217,6 +217,12 @@ source ~/.bashrc  # 또는 source ~/.zshrc
 
 ```bash
 poetry --version
+```
+
+### 4. local in-project 설정
+프로젝트 폴더 내부에 `.venv`라는 폴더에 패키지를 설치하는 옵션이다.
+```bash
+poetry config virtualenvs.create true
 ```
 
 ---
