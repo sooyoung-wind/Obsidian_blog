@@ -4,7 +4,7 @@ import * as Component from "./quartz/components"
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: ['<meta name="google-site-verification" content="GJbb7MJCOK0w1f8I0JvgUIiNBCJSzdv5UeXeN8Wvutc" />'],
+  header: [],
   afterBody: [],
   footer: Component.Footer({
     links: {
