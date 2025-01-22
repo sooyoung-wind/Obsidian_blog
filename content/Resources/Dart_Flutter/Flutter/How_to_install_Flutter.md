@@ -110,6 +110,50 @@ flutter analyze --suggestions
 
 윈도우 유저라서 `choco` 를 사용해서 openjdk를 설치하고 경로도 설정하면 될듯해서 시도해보았다.
 
+issue 4을 참고하기! 결국 해결함
+
+  
+
+### issue 4
+  
+
+> **[Notice]**  
+
+안드로이드 스튜디오를 설치하면 JDK와 gradle은 자동으로 내장된 버전으로 설치된다. 굳이 미리 JDK와 gradle을 미리 설치할 필요가 없다. 혹시 사전에 설치한 버전 때문에 문제가 된다면 아래 해결 방법이 도움이 될 수가 있다.  
+
+**[이슈 내용]** JDK 버전과 gradle 버전 이슈이고 flutter에서 경로 설정에 문제가 있어서 해결한 내용이다.
+
+현재 안드로이드 스튜디오 버전 2024.1.12을 기준으로는 gradle이 8.3으로 설치된다. 나는 여기서 flutter jdk 경로를 사전에 입력해 버려서 jdk 버전을 찾아 볼 수 없었다.
+
+JDK는 OpenJDK도 있으나, 아마존에서 제공하는 JDK로 설치했다. (난 OpenJDK도 시도했으나, 안되어서 바꿔본 케이스이다.)
+
+gradle 8.3에는 JDK 17이 적합하다고 flutter 공식 사이트에서 본 것을 기반으로 설치하였다.(그전에는 JDK 22이였는데 이게 문제였던거 같다.)
+  
+
+```bash
+choco install corretto17jdk
+```
+
+
+만약 JDK 경로가 자동으로 설정이 안되어서 못 찾는다면 `flutter config --list`을 사용해서 경로를 확인하고 설정이 안되어 있다면 `flutter config --jdk-dir`을 사용해서 설정하면 된다.
+
+```bash
+# 경로 찾기
+flutter config --list
+```
+
+  
+
+```bash
+# 경로 설정
+flutter cofing --jdk-dir="JDK 경로"
+```
+
+
+나는 `JDK 17(아마존) + gradle 8.3 + Android studio 2024.1.12` 조합으로 설치에 성공했다.
+
+
+잘 되었는지 확인하는 방법은 Android studio에서 에뮬레이터(web 제외)를 실행해봐서 정상적으로 실행이 되는지 확인해보면 된다.
 
 
 ----
