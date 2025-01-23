@@ -1,5 +1,5 @@
 ---
-title: Flutter 챌린지 졸업 과제(1)
+title: Flutter 클린 코딩 졸업 과제
 date: 2025-01-21 03:00
 tags:
   - Flutter

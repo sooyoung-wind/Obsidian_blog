@@ -1,5 +1,5 @@
 ---
-title: 클린 코딩 02
+title: Flutter 클론 코딩 02
 date: 2025-01-16 18:02
 tags:
   - Flutter
