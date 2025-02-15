@@ -23,6 +23,11 @@ pyenv는 python의 버전을 관리해주는 도구이다. 나는 지금까지 c
 Invoke-WebRequest -UseBasicParsing -Uri "https://raw.githubusercontent.com/pyenv-win/pyenv-win/master/pyenv-win/install-pyenv-win.ps1" -OutFile "./install-pyenv-win.ps1"; &"./install-pyenv-win.ps1"
 ```
 
+**[Notice]**
+만약 권한관련 에러가 발생했다면 파워셀을 관리자 모드로 실행한 다음에 아래 명령어를 실행해보면 해결될 수 있다.
+```
+Set-ExecutionOlicy RemoteSigned
+```
 # python install
 
 `pyenv version`을 입력하면 pyenv에서 현재 설정된 global 및 local에 설치된 python 버전을 확인할 수 있다. 초기에는 설정이 안되었다고 할 것이다. 
