@@ -29,6 +29,8 @@ tags:
 ## 1. [[Projects/]]  
 ## 2. [[Resources/]]  
 
+---
+
 Google agent course Note
 - [[Day1 - Foundational Large Language Models]]
 - [[Day1 - Prompt Engineering]]
