@@ -19,6 +19,17 @@ tags:
   - 모두연
   - 기상
   - 불확도
+  - 가짜연구소
+  - 주식
+  - pytorch
+  - Dart
+  - Flutter
+  - git
+  - Google
+  - langchain
+  - linux
+  - Polars
+  - Report
 ---
 
 저의 소소한 지식 저장소에 오신 것을 환영합니다.👋       
@@ -28,6 +39,8 @@ tags:
 
 ## 1. [[Projects/]]  
 ## 2. [[Resources/]]  
+
+## 3. [[Archive/]]  
 
 ---
 
