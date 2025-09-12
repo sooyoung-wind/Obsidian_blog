@@ -34,7 +34,7 @@ Auther: Soo.Y
 	- 압축 프로그램 : 반디집(https://kr.bandisoft.com/bandizip/)
 	- PDF 프로그램 : nPDF(https://iblogbox.com/npdf/)
 
-**AI Tool **
+**AI Tool**
 - 생성형 AI
 	- Gemini, ChatGPT, Perplexity 등(microsoft store에 있음)
 
