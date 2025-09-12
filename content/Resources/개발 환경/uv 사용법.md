@@ -26,6 +26,7 @@ Auther: Soo.Y
 - `uv python find` : 현재 폴더에서 사용할 수 있는 python 실행파일 경로를 보여준다.
 
 ## 가상환경 생성
+- `uv init` : 폴더 이름을 지정하지 않으면, 현재 폴더에 가상환경을 구축한다.
 - `uv init [풀더이름]` : 폴더 이름으로 초기화한다. python 버전은 글로벌로 설정된 버을 사용한다.
 - `uv venv --python 3.12` : 현재폴더를 기준으로 python 버전에 맞추어서 가상환경을 구축한다.
 
@@ -35,6 +36,15 @@ Auther: Soo.Y
 - `uv remove [패키지]` : 패키지 제거
 - `uv pip freeze > requirements.txt` : requirements.txt로 패키지 목록을 저장한다.
 - `uv pip install -r requirements.txt` : requirements.txt에 있는 패키지를 설치한다.
+
+## Quick 구축
+1. `mkdir [폴더 이름]`
+2. `cd [폴더 이름]`
+3. `uv init`
+4. `uv python list` : python 버전 확인
+	1. 해당 버전이 없으면 `uv python install [버전]`
+5. `uv venv --python [버전]`
+6. `source .venv/Scripts/activate`
 
 
 ----
