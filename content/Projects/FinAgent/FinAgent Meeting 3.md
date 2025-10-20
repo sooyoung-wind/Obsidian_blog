@@ -1,5 +1,5 @@
 ---
-title: FinAgent Meeting 1
+title: FinAgent Meeting 3
 date: 2025-10-19
 tags:
   - 가짜연구소
