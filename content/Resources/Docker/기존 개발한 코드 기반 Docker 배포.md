@@ -39,7 +39,26 @@ CMD ["npm", "start"]
 ```
 
 
+```bash
+# docker 이미지 생성
+docker build -t your-dockerhub-username/agent-chat-ui-1:latest .
 
+#docker hub 로그인
+docker login
+
+# 이미지 업로드
+docker push your-dockerhub-username/agent-chat-ui-1:latest
+
+# 이미지 다운로드
+docker pull your-dockerhub-username/agent-chat-ui-1:latest
+```
+
+```bash
+docker run -d -p 3000:3000 your-dockerhub-username/agent-chat-ui-1:latest
+```
+
+- `-d` : 백그라운드 실행
+- `-p` : 포트 매핑 (호스트:컨테이너)
 
 ----
 ### 📜출처(참고 문헌)  
